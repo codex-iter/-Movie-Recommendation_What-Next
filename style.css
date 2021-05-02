@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+body{
+
+ background-image: url("picture.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  height: 100vh;
+}
+
+.designation
+ {
+    text-align: center;
+     color:white;
+     text-transform: uppercase;
+     font-size: 20px;
+     
+     margin-top: 40px;
+ } 
+ .des
+{
+    animation:changedes 1s infinite;
+}
+@keyframes changedes
+{
+    0%{color: red;}
+   25%{color:rgb(43, 32, 194)}
+    50%{color:rgb(245, 230, 19);}
+   100%{color: blueviolet;}
+
+}
+.search-control
+{
+    width:400px;
+    height:40px;
+    align-items: center;
+    margin-left: 550px;
+    box-shadow: 8px 8px 7px red;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.icon
+{
+    width:30px;
+    height:20px;
+}
+.designation1
+ {
+    text-align: center;
+      font-size: 20px;
+    
+     margin-top: 45px;
+ } 
+ .des1
+{
+    animation:changedes 1s infinite;
+}
+@keyframes changedes
+{
+    0%{color: red;}
+    25%{color:rgb(43, 32, 194);}
+     50%{color:rgb(245, 244, 245);}
+
+    100%
+     {color: yellow;}
+     
+    
+
+}
+#myData
+{
+    font-size:25px;
+    margin-left: 30px;
+    padding:10px;
+    line-height: 40px;
+ 
+    color:white;
+    text-transform:capitalize;
+    text-align: center;
+    
+    
+    
+}
+
